@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF5F7;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: #FFB6C1;
+  }
+  .bg-primary-light {
+    background-color: #FFF0F3;
+  }
+  .text-primary {
+    color: #FF6B8A;
+  }
+  .border-primary {
+    border-color: #FFB6C1;
+  }
+  .bg-blood-normal {
+    background-color: #22C55E;
+  }
+  .text-blood-normal {
+    color: #22C55E;
+  }
+  .bg-blood-high {
+    background-color: #EF4444;
+  }
+  .text-blood-high {
+    color: #EF4444;
+  }
+  .bg-blood-low {
+    background-color: #EAB308;
+  }
+  .text-blood-low {
+    color: #EAB308;
+  }
+}
