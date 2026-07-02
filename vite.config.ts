@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     sourcemap: 'hidden',
   },
-  base: './',
+  base: '/bloodSugarRecord/',
   plugins: [
     react({
       babel: {

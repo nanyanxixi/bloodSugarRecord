@@ -8,6 +8,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:yourusername/yourrepo.git main:gh-pages
+git push -f https://github.com/nanyanxixi/bloodSugarRecord.git master:gh-pages
 
 cd -
